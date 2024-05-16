@@ -1,0 +1,147 @@
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown-menu {
+        position: static !important;
+        display: none;
+        width: auto !important;
+    }
+}
+body {
+    background-color: #f7fafc; 
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #2d3748; 
+}
+
+nav a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #cbd5e0;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1600x900');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Custom Category Card Style */
+.category-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom Product Card Style */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom Footer Style */
+footer {
+    background-color: #1a202c; /* Dark Gray Background */
+    color: #cbd5e0;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #cbd5e0;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+  }
+  .ro {
+    background-image: url("/Image/Cover.png");
+    background-size: cover;
+    background-position: center;
+  }.categoryCard {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
